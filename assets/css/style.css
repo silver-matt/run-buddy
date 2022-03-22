@@ -38,6 +38,52 @@ body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
+section {
+    padding: 60px;
+}
+/* Hero Style Start */
+.hero {
+    background-image: url("../img/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  /* Hero Style End */
+  .hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
+    /* Could use border: solid 3px #024e76 to do in one line */
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+  }
+
+}
+.hero-form h3 {
+  font-size: 24px;
+  margin: 0;
+}
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+.form-input {
+  
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+}
+  .hero-form label {
+    margin: 0 5px;
+  }
 footer {
     background: #fce138;
     width: 100%;
@@ -57,3 +103,11 @@ footer {
   footer a {
       color: #024e76;
   }
+  .hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  /* HERO STYLES END */
